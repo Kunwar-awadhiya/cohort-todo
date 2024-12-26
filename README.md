@@ -2,7 +2,7 @@
 
 - anyone can create a todo
 - anyone can see their existing todos
-- anyonw can mark a todo as dono 
+- anyone can mark a todo as dono 
 
 
 # backend -
@@ -15,10 +15,9 @@ github as the place to push code
 
 
 # frontend - 
-2 components - create todo , update todo , render todo
+components - create todo , update todo , render todo
 
 # things to fix
-infinite request to get todos
 not yet implemented update todos
 
 
