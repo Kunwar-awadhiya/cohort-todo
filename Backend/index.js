@@ -2,9 +2,10 @@ const express = require('express');
 const { createTodo, updateTodo } = require('./types');
 const { todo } = require('./db');
 const app =  express();
+const cors = require('cors');
 
 app.use(express.json());
-
+app.use(cors());
 
 
 app.post('/todo',async(req,res)=>{
@@ -57,3 +58,5 @@ app.put('/completed',async(req,res)=>{
     msg : "todos marked as completed"
    })
 })
+
+app.listen(3000);

@@ -5,8 +5,11 @@ mongoose.connect("mongodb+srv://keven3605y:3lBAaYlLnrMGqXNw@cluster0.ld2av.mongo
 
 const todoSchema = mongoose.Schema({
     title : String,
-    description : string,
-    completed : Boolean,
+    description : String,
+    completed : {
+        type : Boolean,
+        default : false
+    }
 })
 
 const todo = mongoose.model('todo',todoSchema);
