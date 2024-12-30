@@ -6,7 +6,7 @@ export function Todos({ todos }) {
       {
         todos.map(function(todo) {
           return (
-            <div key={todo.title}>  {/* Added key prop */}
+            <div key={todo.title}> 
               <h1>{todo.title}</h1>
               <h2>{todo.description}</h2>
               <button 
