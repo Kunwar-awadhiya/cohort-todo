@@ -13,7 +13,6 @@ export function Todos({ todos }) {
                 onClick={() => {
                   // Add functionality for marking todo as complete
                   console.log(`Todo ${todo.title} clicked!`);
-                  // You can replace this with actual logic to mark as complete
                 }}
               >
                 {todo.completed === true ? "Completed" : "Mark as complete"}
